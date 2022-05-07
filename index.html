@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title>Encriptador</title>        
+        <link rel="stylesheet" href="reset.css">
+        <link rel="stylesheet" href="style.css">
+
+    </head>
+    <body>
+        <header>
+            <h1>Encriptador</h1>
+        </header>
+        <main>
+            <div class="ingreso">
+                <textarea cols=50 rows=25 class="area-ingreso" placeholder="Ingrese su texto (sólo letras, sin caracteres especiales)" required id="texto-in"></textarea>
+                <textarea cols=50 rows=25 class="area-resultado" id="texto-out" disabled></textarea>
+            </div>
+            <div class="botones">
+                <button class="boton-encriptar" id="encriptar">ENCRIPTAR</button>
+                <button class="boton-desencriptar">DESENCRIPTAR</button>
+                <button class="boton-copiar" id="copiar">COPIAR</button>
+            </div>
+        </main>
+        <script src="encripta.js"></script>
+
+        <footer>
+            <p class="copyright">&copy Copyright Encriptador - Challenge 2022</p>
+            <p class="autor">Autor: Jeremías Navarro</p>
+        </footer>
+    </body>
+</html>

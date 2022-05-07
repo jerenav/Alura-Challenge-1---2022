@@ -1,0 +1,130 @@
+header h1 {
+    background-color: #5f63df;
+    color: white;
+    width: auto;
+    height: 30px;
+    margin:0 0 0 0;
+    text-align: left;
+    font-size: 25px;
+    font-family: Arial;
+    padding: 10px 0 10px 15px;
+}
+
+.ingreso{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3F5FC;
+    padding-top: 20px;
+}
+.botones{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #F3F5FC;
+    padding-bottom: 40px;
+    padding-top: 10px;
+}
+
+.boton-encriptar{
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    margin-right: 40px;
+    font-family: Arial;
+    border-radius: 8px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.2s;
+}
+
+.boton-encriptar:hover{
+    transform: scale(1.1);
+    background-color: #5f63df;
+}
+
+.boton-desencriptar{
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    margin-right: 190px;
+    font-family: Arial;
+    border-radius: 8px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.2s;
+}
+
+.boton-desencriptar:hover{
+    transform: scale(1.1);
+    background-color: #5f63df;
+}
+
+.boton-copiar{
+    padding: 10px 10px 10px 10px;
+    width: 150px;
+    margin-left: -10px;
+    margin-right: 80px;
+    font-family: Arial;
+    border-radius: 8px;
+    border: none;
+    background-color: cornflowerblue;
+    color: white;
+    transition: 0.2s;
+}
+
+.boton-copiar:hover{
+    transform: scale(1.1);
+    background-color: #5f63df;
+}
+.area-ingreso{
+    padding: 10px;
+    resize: none;
+    font-size: 13px;
+    border-radius: 8px;
+    margin:10px 10px 20px 10px;
+    border: none;
+    background-color: #F3F5FC;
+}
+
+.area-ingreso:focus{
+    outline: none;
+}
+
+::placeholder{
+    font-size: 15px;
+    color:darkgrey;
+    font-family: Arial;
+    font-style: normal;
+    margin-left: 20px;
+}
+.area-resultado{
+    padding: 10px;
+    resize: none;
+    font-size: 13px;
+    border-radius: 8px;
+    margin:10px 10px 20px 10px;
+    border: 0;
+    box-shadow: 2px 2px 10px #d9dadb;
+    background-color: white;
+}
+.copyright{
+    text-align: center;
+    margin: 0;
+    background-color:#d3d4d4;
+    color: #1E4384;
+    font-family: Arial;
+    font-size: 15px;
+    width: auto;
+    padding: 10px 0 0 0;   
+}
+.autor{
+    text-align: center;
+    margin: 0;
+    background-color:#d3d4d4;
+    color: #1E4384;
+    font-family: Arial;
+    font-size: 15px;
+    width: auto;
+    padding: 10px 0 10px 0;   
+}
